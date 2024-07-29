@@ -25,7 +25,12 @@ h1 {
     width: calc(25% - 10px);
     height: 200px;
     object-fit: cover;
+    transition: transform 0.5s ease-in-out ;
 }
+
+.photo-grid img:hover{
+    transform: scale(1.5);
+} 
 
 aside {
     background-color: #f8f9fa;
@@ -57,4 +62,12 @@ aside article p {
     .photo-grid img {
         width: 100%;
     }
+}
+
+.hero{
+    margin: 0;
+    font-size: 2.5rem;
+    /* background-image: url); */
+    background-color: rgb(185, 54, 54);
+    color: #f8f9fa;
 }

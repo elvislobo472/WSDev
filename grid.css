@@ -1,7 +1,11 @@
 .img-fixed-size {
-    height: 200px; 
-    object-fit: cover; 
     width: 100%;
+    height: 250px;
+    object-fit: cover;
+    transition: transform 0.5s ease-in-out;
+}
+.img-fixed-size:hover {
+    transform: scale(2.1);
 }
 
 h1{
@@ -28,8 +32,19 @@ aside article p {
     color: #555;
 }
 
-.img-sidebar {
+.img-fixed-size {
     width: 100%;
     height: auto;
-    margin-top: 20px;
+}
+
+.video-wrapper {
+    width: 100%;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: #1e1f1f;
+    padding: 10px 0;
+    color: aliceblue;
 }
